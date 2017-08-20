@@ -1,17 +1,24 @@
 changelog----Changed by Harooo in 2017.08
----------------------------------------------------
+----------------------------------------------------------------------------
+
 # 源码修改
-我的系统时ubuntu16.04 LTS，需要做些修改才能运行。
-> 按照README.md中的修改头文件进行了修改；
+我的系统是ubuntu16.04 LTS，需要做些修改才能运行。
+> 按照README.md-Prepare-Compile for Linux中的提示对头文件进行了修改；
 > 在源码的基础上添加了中文注释;
 > 添加了调试代码，在适当的地方printf，输出代码运行情况;
 '''
 numchars = 25,and the buf = POST /color.cgi HTTP/1.1
+
 method=POST
+
 url=/color.cgi
+
 path=htdocs/color.cgi
+
 Open the path successfully
+
 htdocs/color.cgi is a executable file
+
 executing the file htdocs/color.cgi...
 '''
 
@@ -48,8 +55,9 @@ cgi脚本文件位于htdocs目录下，主要有color.cgi,check.cgi和index.html
 回车便可看到页面执行效果。
 client只用做调试，如果不是在本机上运行，需要将127.0.0.1修改为服务器端所在主机的ip。
 
-----------------------------------------------------
+------------------------------------------------------------------------------
 
+Readme
 
 A mirror for tinyhttpd
 测试CGI时需要本机安装PERL，同时安装perl-cgi
